@@ -3,53 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Document title]</title>
-    <meta name="description" content="[A short description of this site for SEO]">
-    <meta name="author" content="[Your Name]">
-    <link rel="stylesheet" href="css/reset.css">
+    <meta name="description" content="Online store for running shoes">
+    <meta name="author" content="Caio Souza">
+    <title>Sneaker Store</title>
+    <script src="https://kit.fontawesome.com/38f2a19837.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/logo-favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
-      <a href="index.html" class="logo">Hello World<!-- Site logo --></a>
+      <a href="index.html" class="logo"> <img src="img/logo-header.png" alt="website logo"></a>
 
       <!-- Navigation menu and toggle button (non-functional) -->
       <button type="button" class="nav-toggle">
-        <span class="material-icons">menu</span>
+        <span class="material-icons md-32">menu</span>
       </button>
       <nav aria-label="Primary" class="navigation">
         <ul class="menu">
-          <li><a href="#">Shop</a>
-            <ul class="submenu">
-              <li><a href="#">Subcategory</a></li>
-              <li><a href="#">Subcategory</a></li>
-              <li><a href="#">Subcategory</a></li>
-            </ul>
-          </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Outlet</a></li>
         </ul>
       </nav>
 
       <!-- Search for a product (non-functional) -->
       <form class="search">
-        <label>Search
-          <input type="search" name="find" id="find">
-        </label>
-        <button type="button"><span class="material-icons">search</span></button>
+        <input type="search" name="find" id="find" placeholder="Search...">
+        <!--<button type="button"> <span class="material-icons md-28">search</span> </button>-->
       </form>
 
       <!-- Additional links -->
       <ul class="your-products">
-        <li><a href="#"><span class="material-icons" aria-label="Favourites">favorite_border</span></a></li>
-        <li><a href="#"><span class="material-icons" aria-label="Items in your cart">shopping_cart</span></a></li>
+        <li><a href="#"> <span class="material-icons md-28">favorite_border</span> </a></li>
+        <li><a href="#"> <span class="material-icons md-28">shopping_cart</span> </a></li>
       </ul>
     </header>
 
     <main class="products">
       <header class="heading">
-        <h1>Sale on [Category Name]</h1>
+        <h1>Sale on Men</h1>
       </header>
 
       <!-- Filtering product form -->
@@ -60,59 +56,51 @@
           <fieldset>
             <legend>Colour</legend>
             <ul class="filter-list">
-              <li><input type="checkbox" name="colour" value="black" id="black"> <label for="black">Black</label></li>
-              <li><input type="checkbox" name="colour" value="white" id="white"> <label for="white">White</label></li>
-              <li><input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey">Grey</label></li>
-              <li><input type="checkbox" name="colour" value="red" id="red"> <label for="red">Red</label></li>
-              <li><input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue">Blue</label></li>
+              <li> <input type="checkbox" name="colour" value="black" id="black">   <label for="black">Black</label>   </li>
+              <li> <input type="checkbox" name="colour" value="white" id="white">   <label for="white">White</label>   </li>
+              <li> <input type="checkbox" name="colour" value="grey"  id="grey">    <label for="grey">Grey</label>     </li>
+              <li> <input type="checkbox" name="colour" value="red"   id="red">     <label for="red">Red</label>       </li>
+              <li> <input type="checkbox" name="colour" value="blue"  id="blue">    <label for="blue">Blue</label>     </li>
+              <li> <input type="checkbox" name="colour" value="green" id="green">   <label for="green">Green</label>   </li>
+              <li> <input type="checkbox" name="colour" value="yellow" id="yellow"> <label for="yellow">Yellow</label> </li>
+              <li> <input type="checkbox" name="colour" value="orange" id="orange"> <label for="orange">Orange</label> </li>
             </ul>
           </fieldset>
+
           <fieldset>
             <legend>Sizes</legend>
             <ol class="filter-list">
-              <li><input type="checkbox" name="size" value="xs" id="xs"> <label for="xs">XS</label></li>
-              <li><input type="checkbox" name="size" value="sm" id="sm"> <label for="sm">S</label></li>
-              <li><input type="checkbox" name="size" value="md" id="md"> <label for="md">M</label></li>
-              <li><input type="checkbox" name="size" value="lg" id="lg"> <label for="lg">L</label></li>
-              <li><input type="checkbox" name="size" value="xl" id="xl"> <label for="xl">XL</label></li>
+              <li><input type="checkbox" name="size" value="5"  id="5">  <label for="5">5</label></li>
+              <li><input type="checkbox" name="size" value="6"  id="6">  <label for="6">6</label></li>
+              <li><input type="checkbox" name="size" value="7"  id="7">  <label for="7">7</label></li>
+              <li><input type="checkbox" name="size" value="8"  id="8">  <label for="8">8</label></li>
+              <li><input type="checkbox" name="size" value="9"  id="9">  <label for="9">9</label></li>
+              <li><input type="checkbox" name="size" value="10" id="10"> <label for="10">10</label></li>
+              <li><input type="checkbox" name="size" value="11" id="11"> <label for="11">11</label></li>
+              <li><input type="checkbox" name="size" value="12" id="12"> <label for="12">12</label></li>
+              <li><input type="checkbox" name="size" value="13" id="13"> <label for="13">13</label></li>
+              <li><input type="checkbox" name="size" value="14" id="14"> <label for="14">14</label></li>
             </ol>
           </fieldset>
+          
           <fieldset>
-            <legend>Ratings (above)</legend>
-            <ol class="filter-list">
-              <li>
-                <input type="radio" name="rating" value="4" id="aboveFour">
-                <label for="aboveFour">
-                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span>
-                </label>
-              </li>
-              <li>
-                <input type="radio" name="rating" value="3" id="aboveThree">
-                <label for="aboveThree">
-                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
-                </label>
-              </li>
-              <li>
-                <input type="radio" name="rating" value="2" id="aboveTwo">
-                <label for="aboveTwo">
-                  <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
-                </label>
-              </li>
-              <li>
-                <input type="radio" name="rating" value="1" id="aboveOne">
-                <label for="aboveOne">
-                  <span class="material-icons">star</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span><span class="material-icons">star_border</span>
-                </label>
-              </li>
-            </ol>
+            <legend>Ratings</legend>
+              <div class="rating">
+                <input type="radio" id="star5" name="star" value="5"><label for="star5"></label>
+                <input type="radio" id="star4" name="star" value="4"><label for="star4"></label>
+                <input type="radio" id="star3" name="star" value="3"><label for="star3"></label>
+                <input type="radio" id="star2" name="star" value="2"><label for="star2"></label>
+                <input type="radio" id="star1" name="star" value="1"><label for="star1"></label>
+              </div>
           </fieldset>
         </div>
-        <fieldset>
-          <label for="sort">Show</label>
+
+        <fieldset class="sort">
+          <label for="sort">Sort By</label>
           <select name="sort" id="sort">
-            <option value="price-high">Price, highest to lowest</option>
-            <option value="price-low">Price, lowest to highest</option>
-            <option value="newest">Newest releases</option>
+            <option value="price-high">Price: High-Low</option>
+            <option value="price-low">Price: Low-High</option>
+            <option value="newest">Newest</option>
           </select>
         </fieldset>
       </form>
@@ -123,36 +111,40 @@
         <!-- Product 1 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Nike-ZoomX-Vaporfly-NEXT.png" alt="Product Image">
+            <h3>Nike ZoomX Vaporfly NEXT%</h3>
+            <data value="330"><del>$399.00</del> <ins>$330.00</ins></data>
+            <p>There's a reason why some of the world's most elite runners race in this shoe—it's our fastest.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <a href="#">see more</a>
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="white"> White</label></li>
+                <li><label><input type="radio" name="colour" value="orange"> Orange</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="9">9</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
+                <li><label><input type="radio" name="size" value="11">11</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -160,36 +152,40 @@
         <!-- Product 2 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Nike-Air-Zoom-Alphafly-NEXT-Flyknit.png" alt="Product Image">
+            <h3>Nike Air Zoom Alphafly NEXT% Flyknit</h3>
+            <data value="360"><del>$420.00</del> <ins>$360.00</ins></data>
+            <p>Strength. Energy. Effort. Inspired by one of Japan's biggest races of the year.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_half</span>
+                <a href="#">see more</a>
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="green">Green</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="7">7</label></li>
+                <li><label><input type="radio" name="size" value="8">8</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
+                <li><label><input type="radio" name="size" value="12">12</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -197,36 +193,43 @@
         <!-- Product 3 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Adidas-Nmd-R1-Primeknit-Shoes.png" alt="Product Image">
+            <h3>Adidas Nmd_R1 Primeknit</h3>
+            <data value="220"><del>$290.00</del> <ins>$220.00</ins></data>
+            <p>The NMD series turns five, and in true NMD fashion, we're celebrating by making some major noise.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+              
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_half</span>
+                <span class="material-icons">star_border</span>
+                <a href="#">see more</a>  
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="yellow">Yellow</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="5">5</label></li>
+                <li><label><input type="radio" name="size" value="6">6</label></li>
+                <li><label><input type="radio" name="size" value="9">9</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
+                <li><label><input type="radio" name="size" value="10">11</label></li>
+                <li><label><input type="radio" name="size" value="10">12</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -234,36 +237,43 @@
         <!-- Product 4 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Adidas-Gamecourt-Tennis.png" alt="Product Image">
+            <h3>Adidas Gamecourt Tennis</h3>
+            <data value="100"><del>$120.00</del> <ins>$100.00</ins></data>
+            <p>Raise your game without leaving your comfort zone.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+              
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_border</span>
+                <span class="material-icons">star_border</span>
+                <a href="#">see more</a>
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="black">Black</label></li>
+                <li><label><input type="radio" name="colour" value="white">White</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="5">5</label></li>
+                <li><label><input type="radio" name="size" value="6">6</label></li>
+                <li><label><input type="radio" name="size" value="8">8</label></li>
+                <li><label><input type="radio" name="size" value="9">9</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -271,36 +281,41 @@
         <!-- Product 5 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Puma-Calibrate-Runner.png" alt="Product Image">
+            <h3>Puma Calibrate Runner</h3>
+            <data value="170"><del>$200.00</del> <ins>$170.00</ins></data>
+            <p>A scientific advancement by human and machine: calculated cushioning by PUMA.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_half</span>
+                <a href="#">see more</a>
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="black">Black</label></li>
+                <li><label><input type="radio" name="colour" value="white">White</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="7">7</label></li>
+                <li><label><input type="radio" name="size" value="8">8</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
+                <li><label><input type="radio" name="size" value="12">12</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -308,36 +323,42 @@
         <!-- Product 6 -->
         <article class="product">
           <header>
-            <img src="img/product.jpg" alt="Product Image">
-            <h3>Product Name</h3>
-            <data value="39"><del>$50.00</del> <ins>$39.00</ins></data>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <img src="img/product-Puma-UltraRide-Xtreme.png" alt="Product Image">
+            <h3>Puma UltraRide Xtreme</h3>
+            <data value="110"><del>$140.00</del> <ins>$110.00</ins></data>
+            <p>Sometimes to reach extraordinary places, you have to remove excess boundaries.</p>
             <dl>
-              <dt>Rating</dt>
-              <dd>4.4 <span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+              <dt>Rating:</dt>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_border</span>
+                <a href="#">see more</a>  
             </dl>
-            <a href="#">see more</a>
+            
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
               <ul>
-                <li><label><input type="radio" name="colour" value="r"> Red</label></li>
-                <li><label><input type="radio" name="colour" value="w"> White</label></li>
-                <li><label><input type="radio" name="colour" value="b"> Blue</label></li>
+                <li><label><input type="radio" name="colour" value="green">Green</label></li>
+                <li><label><input type="radio" name="colour" value="white">White</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
               <ol>
-                <li><label><input type="radio" name="size" value="m"> M</label></li>
-                <li><label><input type="radio" name="size" value="l"> L</label></li>
-                <li><label><input type="radio" name="size" value="xl"> XL</label></li>
+                <li><label><input type="radio" name="size" value="5">5</label></li>
+                <li><label><input type="radio" name="size" value="6">6</label></li>
+                <li><label><input type="radio" name="size" value="8">8</label></li>
+                <li><label><input type="radio" name="size" value="9">9</label></li>
+                <li><label><input type="radio" name="size" value="10">10</label></li>
               </ol>
             </fieldset>
           </form>
           <footer>
-            <button type="button"><span class="material-icons">add_shopping_cart</span> Add to Cart</button>
+            <button type="button"><span class="material-icons">add_shopping_cart</span>  </button>
             <button type="button"><span class="material-icons">favorite</span></button>
           </footer>
         </article>
@@ -357,9 +378,9 @@
 
     <footer class="page-footer">
       <ul class="social">
-        <li><a href="#"><span class="material-icons">face</span> Facebook</a></li>
-        <li><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
-        <li><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
+        <li><a href="facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="instagram.com"><i class="fab fa-instagram-square"></i></a></li>
+        <li><a href="twitter.com"><i class="fab fa-twitter-square"></i></a></li>
       </ul>
       <nav aria-label="Legal">
         <ul class="legal">
@@ -368,7 +389,7 @@
           <li><a href="#">Accessibility Policy</a></li>
         </ul>
       </nav>
-      <p class="copyright">&copy; Copyright, 1991.</p>
+      <p class="copyright">&copy; Copyright, Sneaker Store 2021.</p>
     </footer>
 
   </body>
