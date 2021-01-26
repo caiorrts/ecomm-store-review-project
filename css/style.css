@@ -157,6 +157,12 @@ input[name="size"]:checked + label
 .products dl {
     display: flex;
     margin-bottom: 14px;
+    background-color: aqua;
+}
+
+.product div {
+    margin-left: 0;
+    height: 50px;
 }
 
 .product label {
@@ -182,7 +188,7 @@ input[name="size"]:checked + label
     color: var(--color-white);
     cursor: pointer;
     margin-left: 20px;
-    padding: 0 10px;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 
