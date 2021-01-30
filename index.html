@@ -17,24 +17,28 @@
       <a href="index.html" class="logo"> <img src="img/logo-header.png" alt="website logo"></a>
 
       <!-- Navigation menu and toggle button (non-functional) -->
-      <button type="button" class="nav-toggle">
-        <span class="material-icons md-32">menu</span>
-      </button>
-      <nav aria-label="Primary" class="navigation">
-        <ul class="menu">
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Women</a></li>
-          <li><a href="#">Kids</a></li>
-          <li><a href="#">Brands</a></li>
-          <li><a href="#">Outlet</a></li>
-        </ul>
-      </nav>
+      <div class="nav-toggle">
+        <input type="checkbox" id="check-menu" checked>
+        <label for="check-menu" aria-label="Check Menu">
+          <span class="material-icons md-32">menu</span>
+        </label>
+        <nav aria-label="Primary" class="navigation">
+          <ul class="menu">
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+      </div>
+      
 
       <!-- Search for a product (non-functional) -->
       <form class="search">
         <label for="find" aria-label="Search"></label>
         <input type="search" name="find" id="find" placeholder="Search...">
-        <button type="submit" aria-label="findsubmit"><span class="material-icons"></span></button>
+        <button type="submit" aria-label="findsubmit"><span class="material-icons">search</span></button>
       </form>
 
       <!-- Additional links -->
